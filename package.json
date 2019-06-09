@@ -7,6 +7,9 @@
     "csv-parse": "^4.0.1",
     "protobufjs": "^4.1"
   },
+  "script": {
+    "prepare": "git submodule add https://github.com/SteamDatabase/Protobufs protobufs"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/lizilong007/node-steam-resources"
