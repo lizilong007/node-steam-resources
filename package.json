@@ -8,7 +8,7 @@
     "protobufjs": "^4.1"
   },
   "scripts": {
-    "prepare": "git submodule add https://github.com/SteamDatabase/Protobufs protobufs"
+    "prepare": "git init && git submodule add https://github.com/SteamDatabase/Protobufs protobufs"
   },
   "repository": {
     "type": "git",
